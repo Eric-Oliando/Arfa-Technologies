@@ -1,0 +1,395 @@
+body {
+    background-color: #eee;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.35;
+    color: #555;
+    font-size: 17px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-right: 7px;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./Images/Teo\ &\ Luo.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.menu {
+    width: 420px;
+    float: left;
+    height: 72px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 52px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    color: white;
+    font-family: inherit;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+    padding: 0 auto;
+}
+
+ul li a:hover {
+    color: rgb(0, 128, 85);
+}
+
+.search {
+    float: left;
+    width: 300px;
+    margin-left: 270px;
+    margin-right: 10px;
+}
+
+.srch {
+    margin-top: 14px;
+    color: white;
+    font-size: 16px;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 21px;
+    background: #7c7c7c;
+    font-family: inherit;
+    width: calc(100% - 100px);
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 42px;
+    width: 42px;
+    outline: none;
+    background: #7c7c7c;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    float: left;
+    padding-top: 7px;
+}
+
+.btn {
+    width: 70px;
+    height: 42px;
+    background: rgb(255, 123, 0);
+    margin-top: 14px;
+    color: black;
+    font-size: 15px;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    color: rgb(238, 255, 0);
+    font-family: inherit;
+    padding-top: 55px;
+    margin-left: 1.8em;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.content h1 {
+    margin-right: 1.5em;
+}
+
+.content .para {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.content .cn {
+    width: 152px;
+    height: 42px;
+    border: none;
+    background: rgb(255, 123, 0);
+    cursor: pointer;
+    margin-left: 21px;
+    border-radius: 12px;
+    transition: 0.4s ease-in-out;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.cn:hover {
+    background-color: white;
+}
+
+/* finish styling main */
+/* start styling the following division*/
+
+.desc {
+    margin: auto;
+    width: 1200px;
+    font-family: sans-serif;
+}
+
+.desc h1 {
+    text-align: center;
+    color: rgb(0, 128, 85);
+    font-size: 35px;
+}
+
+.desc p {
+    line-height: 1.4;
+    font-size: inherit;
+    text-align: left;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.desc p strong {
+    font-weight: bold;
+    color: rgb(0, 128, 111);
+}
+
+.header-1 {
+    text-align: center;
+    color: rgb(0, 128, 85);
+    font-size: 35px;
+}
+
+.container .image-div img {
+    width: 420px;
+    height: 420px;
+    clip-path: fill-box;
+    padding: 10px;
+    border-radius: 1px;
+    margin-bottom: 2.1em;
+    display: inline-block;
+    justify-content: space-between;
+    padding-bottom: 4px;
+}
+
+.para-vision {
+    line-height: 1.4;
+    font-size: inherit;
+    text-align: left;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.para-vision strong {
+    font-weight: bold;
+    color: rgb(0, 128, 111);
+}
+
+.our-values {
+    text-align: center;
+    color: rgb(0, 128, 85);
+    font-size: 35px;
+}
+
+.para-values {
+    text-align: center;
+    font-size: 17px;
+}
+
+.form {
+    width: 100%;
+    max-width: 560px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    border-radius: 10px;
+    margin: 121px;
+    left: 52px;
+    padding: 28px;
+}
+
+.form h2 {
+    width: fit-content;
+    height: auto;
+    font-family: inherit;
+    align-items: center;
+    color: rgb(255, 230, 0);
+    font-size: 30px;
+    background-color: azure;
+    border-radius: 12px;
+    margin: 2px;
+    padding: 5px;
+    color: black;
+}
+
+.form input {
+    width: 350px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    font-family: sans-serif;
+}
+
+.btnn {
+    width: 240px;
+    height: 35px;
+    background: orange;
+    margin-top: 30px;
+    border: none;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease-in;
+}
+
+.btnn:hover {
+    background: white;
+    color: orange;
+}
+
+.btnn a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.form .link {
+    font-size: 16px;
+    font-family: inherit;
+    text-align: center;
+    padding: 20px;
+    color: #eee;
+}
+
+.from .link a {
+    text-decoration: none;
+    color: orange;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: inherit;
+    color: #eee;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(0, 255, 191);
+}
+
+
+.icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon .ion-icon {
+    font-size: 30px;
+    padding-left: 28px;
+    padding-top: 7px;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #242621;
+    padding: 2.8rem;
+    margin-top: 1.8rem;
+    margin-bottom: 0;
+    border-radius: 1em;
+}
+
+
+
+footer ul li {
+    padding: 0;
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+}
+
+footer ul li a {
+    list-style-type: none;
+    padding-top: 5px;
+    padding: 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 14px;;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.social-icons {
+    fill: #ffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 72px;
+}
